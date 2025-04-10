@@ -1,4 +1,4 @@
-# Documentación API de Calendario
+# Documentación API de Calendar
 
 ## Información General
 
