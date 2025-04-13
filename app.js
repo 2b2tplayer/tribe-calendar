@@ -20,7 +20,11 @@ const app = express();
 app.use(express.json());
 
 // Habilitar CORS
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:3000'
+  ]
+}));
 
 // Montar rutas
 app.use('/api/auth', authRoutes);
